@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .headline {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .card-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .shirt {
+    background-color: #ffcc00;
+  }
+  
+  .shoes {
+    background-color: #66cc66;
+  }
+  
+  .fruits {
+    background-color: #3399ff;
+  }
+  
+  .emoji {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .name {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .price {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 10px;
+  }
+  
+  .next-button {
+    display: block;
+    margin-top: 20px;
+    background-color: #ff6699;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .next-button:hover {
+    background-color: #ff3366;
+  }
+  
